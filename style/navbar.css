@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/assets/pexels-photo-1242348.jpeg);
+  /* border: solid 2px #a9928a; */
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+}
+
+/* The navigation link */
+.nav-link {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-link li {
+  list-style-type: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #121212;
+}
+
+/* The Logo */
+
+.logo {
+  font-size: 25px;
+  font-weight: 800;
+  color: #121212;
+}
