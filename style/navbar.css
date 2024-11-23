@@ -2,12 +2,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(/assets/pexels-photo-1242348.jpeg);
   padding: 15px 10px;
   margin-top: 10px;
   margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 8px;
+  margin-right: 80px;
 }
 
 /* The navigation link */
@@ -22,15 +20,70 @@ nav {
 }
 
 .nav-link a {
+  position: relative;
   text-decoration: none;
-  color: #121212;
+  color: white;
   font-size: 17px;
+  margin-left: 4rem;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-link a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f4d6a5;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+.nav-link a:hover::after {
+  transform: scaleX(1);
+  text-decoration: underline;
+  transform-origin: bottom left;
+}
+
+@media (max-width: 995px) {
+  nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid purple;
+    border-bottom: 3px solid purple;
+    border-top-left-radius: 2rem;
+    padding: 1rem solid;
+    background-color: black;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  }
+
+  nav.active {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  nav a:hover,
+  nav a.active {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid blue;
+  }
 }
 
 /* The Logo */
 
-.logo {
+.logo a {
   font-size: 30px;
   font-weight: 800;
-  color: #121212;
+  color: white;
+  text-decoration: none;
 }

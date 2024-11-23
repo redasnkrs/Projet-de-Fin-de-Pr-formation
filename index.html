@@ -4,18 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/main.css" />
-    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/home.css" />
     <link rel="stylesheet" href="./style/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
     <title>Document</title>
   </head>
   <body>
-    <nav>
-      <div class="logo">LOGO</div>
-      <ul class="nav-link">
-        <li><a href="./page/entreprise.html">Entreprise</a></li>
-        <li><a href="./page/exposition.html">Exposition</a></li>
-        <li><a href="./page/galerie.html">Galerie</a></li>
-      </ul>
-    </nav>
+    <header>
+      <a href="#" class="logo">Reda</a>
+      <nav>
+        <ul class="nav-link">
+          <li>
+            <a class="active" href="./page/entreprise.html">Entreprise</a>
+          </li>
+          <li><a class="active" href="./page/galerie.html">Interview</a></li>
+          <li><a class="active" href="./page/galerie.html">Rapport</a></li>
+          <li>
+            <a class="active" href="./page/exposition.html">Exposition</a>
+          </li>
+          <li><a class="active" href="./page/galerie.html">Galerie</a></li>
+          <li><a class="active" href="./page/galerie.html">Conclusion</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="home-img">
+        <img src="./assets/Betterimage.ai_1732386030717.jpeg" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hey, it's <span>Reda</span></h1>
+        <h3 class="typing-text">i'm a <span class="type-text"></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+          voluptatum.
+        </p>
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/redasnkrs"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://x.com/redasnkrs"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
   </body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".type-text", {
+      strings: ["Web Developer", "Software Enginner", "Designer"],
+      typeSpeed: 200,
+      backSpeed: 50,
+      loop: true,
+    });
+  </script>
 </html>
