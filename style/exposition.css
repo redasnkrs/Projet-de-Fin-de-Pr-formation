@@ -12,10 +12,6 @@
   gap: 40px;
 }
 
-.container p {
-  /* position: absolute; */
-}
-
 .lan {
   content: url(../assets/lan-drapeau.jpeg);
   height: 600px;
