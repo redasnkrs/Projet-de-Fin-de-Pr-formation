@@ -124,7 +124,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #1e1e1e;
   right: -15px;
 }
 
@@ -136,7 +136,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid #fff;
+  border-right: 15px solid #1e1e1e;
   left: -15px;
 }
 

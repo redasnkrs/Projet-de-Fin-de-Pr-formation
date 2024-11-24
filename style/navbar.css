@@ -4,15 +4,13 @@ nav {
   align-items: center;
   padding: 15px 10px;
   margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 80px;
 }
 
 /* The navigation link */
 
 .nav-link {
   display: flex;
-  gap: 10px;
+  margin-right: 80px;
 }
 
 .nav-link li {
@@ -23,6 +21,7 @@ nav {
   position: relative;
   text-decoration: none;
   color: white;
+  font-weight: 700;
   font-size: 17px;
   margin-left: 4rem;
   border-bottom: 3px solid transparent;
@@ -47,43 +46,17 @@ nav {
   transform-origin: bottom left;
 }
 
-@media (max-width: 995px) {
-  nav {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 40%;
-    border-left: 3px solid purple;
-    border-bottom: 3px solid purple;
-    border-top-left-radius: 2rem;
-    padding: 1rem solid;
-    background-color: black;
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-  }
-
-  nav.active {
-    display: block;
-  }
-
-  nav a {
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
-  }
-
-  nav a:hover,
-  nav a.active {
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border-bottom: 0.5rem solid blue;
-  }
-}
-
 /* The Logo */
 
-.logo a {
-  font-size: 30px;
+.logo {
+  font-size: 3rem;
+  color: #f4d6a5;
+  cursor: pointer;
   font-weight: 800;
-  color: white;
+  transition: 0.5s ease;
   text-decoration: none;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
