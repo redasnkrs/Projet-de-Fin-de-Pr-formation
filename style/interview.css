@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* Animation time line. */
+
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -56,6 +58,8 @@
 .container:nth-child(10) {
   animation-delay: 9s;
 }
+
+/*Box where the question (text) is */
 
 .text-box {
   padding: 20px 30px;
@@ -113,7 +117,10 @@
 }
 
 .text-box h2 {
+  font-size: 1.2rem;
   font-weight: 600;
+  color: #eec178;
+  padding-bottom: 14px;
 }
 
 .left-container-arrow {
@@ -170,4 +177,19 @@
     border-left: 0;
     left: -15px;
   }
+}
+
+/* ///////////////////// Profile of the worker //////////////////// */
+
+.profil-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  gap: 50px;
+}
+
+.profile img {
+  width: 250px;
+  margin-bottom: 10px;
 }
