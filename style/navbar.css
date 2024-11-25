@@ -49,6 +49,7 @@ nav {
 /* The Logo */
 
 .logo {
+  margin-left: 10px;
   font-size: 3rem;
   color: #f4d6a5;
   cursor: pointer;
