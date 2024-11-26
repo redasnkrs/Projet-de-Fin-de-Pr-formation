@@ -181,15 +181,40 @@
 
 /* ///////////////////// Profile of the worker //////////////////// */
 
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+}
+
 .profil-content {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   text-align: left;
   gap: 50px;
+  margin-left: 20%;
 }
 
 .profile img {
   width: 250px;
   margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.bio-info {
+  background-color: #1e1e1e;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.bio-info p {
+  font-weight: 700;
+}
+
+.info-color {
+  color: #eec178;
+  margin-right: 5px;
 }

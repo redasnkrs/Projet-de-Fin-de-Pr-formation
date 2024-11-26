@@ -25,7 +25,7 @@ header {
 }
 
 /* The typing text */
-span {
+.home-content span {
   font-family: "Bebas Neue";
   color: #f4d6a5;
 }
