@@ -83,6 +83,8 @@ section {
   box-shadow: 0 0 25px #f4d6a5;
 }
 
+/* Icon on the bottom like linkdein, github and twitter */
+
 .social-icon a {
   display: inline-flex;
   justify-content: center;

@@ -1,19 +1,17 @@
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   color: white;
   margin-top: 20%;
   gap: 40px;
 }
 
-.lan {
-  content: url(../assets/abstract-bluish-paint-background-wallpaper.jpg);
-  height: 400px;
-  border: solid 1px #ebcb9a;
+.container img {
+  width: 500px;
+  height: 500px;
+}
+
+.text-expo {
+  width: 50%;
 }
