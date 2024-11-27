@@ -8,12 +8,12 @@
   display: flex;
   align-items: center;
   color: white;
-  margin-top: 100px;
+  margin-top: 20%;
   gap: 40px;
 }
 
 .lan {
-  content: url(../assets/lan-drapeau.jpeg);
-  height: 600px;
+  content: url(../assets/abstract-bluish-paint-background-wallpaper.jpg);
+  height: 400px;
   border: solid 1px #ebcb9a;
 }
