@@ -71,6 +71,7 @@
   cursor: pointer;
   transition: linear 0.2s;
   z-index: 10;
+  font-family: "Roboto";
 }
 
 .text-box:hover {
@@ -221,6 +222,10 @@
   background-color: #1e1e1e;
   padding: 10px 10px;
   border-radius: 5px;
+}
+
+.bio {
+  font-family: "Roboto";
 }
 
 .bio-info p {
