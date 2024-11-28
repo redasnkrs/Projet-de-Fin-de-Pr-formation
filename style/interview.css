@@ -69,13 +69,13 @@
   font-size: 15px;
   color: #e3e3e0;
   cursor: pointer;
-  transition: linear 0.2s;
   z-index: 10;
   font-family: "Roboto";
+  transition: ease-in-out 0.2s;
 }
 
 .text-box:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .left-container {
@@ -98,6 +98,11 @@
   width: 40px;
   border-radius: 50%;
   background-color: #f4d6a5;
+  transition: ease 0.2s;
+}
+
+.container:hover > .black-hole {
+  box-shadow: 0 0 25px #eec178;
 }
 
 .right-container .black-hole {
