@@ -1,0 +1,24 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 18px;
+  margin-top: 5%;
+}
+
+.main-content h2 {
+  color: #eec178;
+}
+
+.main-content p {
+  font-family: "Roboto", sans-serif;
+  width: 30%;
+  background-color: #1e1e1e;
+  padding: 5px 5px 8px 5px;
+  border-radius: 8px;
+}
+
+.main-content img {
+  width: 500px;
+  height: 250px;
+}
