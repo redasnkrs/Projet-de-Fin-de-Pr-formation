@@ -1,17 +1,23 @@
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   color: white;
   margin-top: 10%;
-  gap: 40px;
+  gap: 30px;
 }
 
 .container img {
   width: 500px;
   height: 500px;
-
+  cursor: pointer;
   border: solid 1px #eec178;
+  transition: ease 0.25s;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #eec178;
 }
 
 .text-expo {
