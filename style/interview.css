@@ -116,7 +116,8 @@
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #e3e3e0;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #b6a999, #4f4537, #9e7e4a);
   top: 0;
   left: 50%;
   margin-left: -3px;
