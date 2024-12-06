@@ -12,18 +12,6 @@ body {
   color: white;
 }
 
-/* header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-  filter: drop-shadow(10px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-} */
-
 /* The typing text */
 .home-content span {
   font-family: "Bebas Neue";
@@ -34,7 +22,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 5rem 9% 5rem;
+  /* padding: 3rem 9% 3rem; */
 }
 
 .home {
@@ -106,7 +94,3 @@ section {
   background-color: #f4d6a5;
   box-shadow: 0 0 25px #f4d6a5;
 }
-
-/* nav ul {
-  margin-left: 800px;
-} */
