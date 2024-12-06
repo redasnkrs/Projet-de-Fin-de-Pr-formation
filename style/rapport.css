@@ -11,8 +11,9 @@
 }
 
 .main-content p {
-  font-family: "Roboto", sans-serif;
-  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  width: 40%;
   background-color: #1e1e1e;
   padding: 5px 5px 8px 5px;
   border-radius: 8px;
