@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -78,8 +80,13 @@
   transform: scale(1.05);
 }
 
-/* .text-box p {
-} */
+.text-box p {
+  text-align: left;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 1.1em;
+  font-family: "Montserrat";
+}
 
 .left-container {
   left: 0;
@@ -140,8 +147,8 @@
 /* /////////////////////////////////////// */
 
 .text-box h2 {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #eec178;
   padding-bottom: 14px;
 }
@@ -244,9 +251,6 @@
 
 .bio {
   width: 40%;
-  /* background-color: #1e1e1e;
-  padding: 8px 10px 4px 8px;
-  border-radius: 10px; */
 }
 
 .bio p {
