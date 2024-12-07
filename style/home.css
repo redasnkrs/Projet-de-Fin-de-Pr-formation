@@ -22,7 +22,6 @@ body {
 
 section {
   min-height: 100vh;
-  /* padding: 3rem 9% 3rem; */
 }
 
 .home {
@@ -32,6 +31,10 @@ section {
   align-items: center;
   gap: 8rem;
   background-color: #121212;
+}
+
+.home-content {
+  width: 500px;
 }
 
 .home .home-content h1 {
