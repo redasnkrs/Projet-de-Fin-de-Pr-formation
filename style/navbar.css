@@ -10,7 +10,7 @@ nav {
 
 .nav-link {
   display: flex;
-  margin-right: 80px;
+  margin-right: 2%;
 }
 
 .nav-link li {
@@ -25,6 +25,14 @@ nav {
   font-size: 17px;
   margin-left: 4rem;
   border-bottom: 3px solid transparent;
+}
+
+.nav-link .active {
+  color: #f4d6a5;
+}
+
+.nav-link a:active {
+  color: #e6c99a;
 }
 
 .nav-link a::after {
@@ -44,11 +52,13 @@ nav {
   transform: scaleX(1);
   text-decoration: underline;
   transform-origin: bottom left;
+  box-shadow: 2px 1px 5px #fc894d;
 }
 
 /* The Logo */
 
 .logo {
+  font-family: "Bebas Neue";
   margin-left: 10px;
   font-size: 3rem;
   color: #f4d6a5;

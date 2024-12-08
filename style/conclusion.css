@@ -6,6 +6,9 @@
 }
 
 .main-content p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+  font-size: 1.3rem;
   width: 40%;
   background-color: #1e1e1e;
   padding: 10px;
