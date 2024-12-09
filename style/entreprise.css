@@ -1,0 +1,62 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 18px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.main-content h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #eec178;
+  text-align: center;
+}
+
+.main-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  width: 45%;
+  line-height: 2rem;
+  background-color: #1e1e1e;
+  padding: 8px 5px 8px 10px;
+  border-radius: 8px;
+}
+
+.main-content img {
+  width: auto;
+  height: 800px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.organigramme {
+  border-radius: 20px;
+}
+
+.mini-title {
+  color: #f1ae6b;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#origines {
+  text-align: left;
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  border-radius: 8px;
+}
+
+.adress {
+  margin-left: 2%;
+}
