@@ -20,7 +20,7 @@
   width: 45%;
   line-height: 2rem;
   background-color: #1e1e1e;
-  padding: 8px 5px 8px 10px;
+  padding: 25px;
   border-radius: 8px;
 }
 
@@ -32,6 +32,7 @@
 .center-content {
   display: flex;
   justify-content: center;
+  margin-top: 2%;
   margin-bottom: 10%;
   scale: 0.8;
   opacity: 0;
@@ -58,6 +59,15 @@
 
 /* //////////////////////// */
 
+.img-illu {
+  margin-left: -100px;
+  margin-top: -48px;
+}
+
+.img-illu {
+  float: left;
+}
+
 .mini-title {
   color: #f1ae6b;
   font-size: 1.5rem;
@@ -71,6 +81,7 @@
 #map {
   display: flex;
   justify-content: center;
+  margin-bottom: 2%;
 }
 
 iframe {
