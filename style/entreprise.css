@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 30px;
   margin-left: 18px;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 3%;
 }
 
@@ -28,15 +28,35 @@
   width: auto;
   height: 800px;
 }
-
+/* Scroll animation  */
 .center-content {
   display: flex;
   justify-content: center;
+  margin-bottom: 10%;
+  scale: 0.8;
+  opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: 250px 500px;
 }
 
 .organigramme {
   border-radius: 20px;
+  scale: 0.8;
+  opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: 100px 800px;
 }
+
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+/* //////////////////////// */
 
 .mini-title {
   color: #f1ae6b;
