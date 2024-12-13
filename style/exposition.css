@@ -177,7 +177,7 @@
 /* IL VEUT PAS PRENDRE LE STYLE QUAND JE MET RIGHT ET LEFT ENSEMBLE... */
 #txt-year,
 #txt-year-right {
-  width: 100%;
+  width: 95%;
 
   background-color: transparent;
 }
