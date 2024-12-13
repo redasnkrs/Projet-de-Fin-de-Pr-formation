@@ -457,7 +457,7 @@
   border-radius: 10px;
 }
 
-/* ///////////////// */
+/* /////// carousel////////// */
 
 .slider {
   max-width: 1650px;
@@ -468,27 +468,31 @@
   display: flex;
   animation: carousel 17s linear infinite;
   gap: 80px;
-  /* overflow: hidden; */
 }
 
 .slider-img {
   display: block;
   height: 600px;
   object-fit: cover;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   border-radius: 4px;
 }
 
 .slider-img:hover {
-  scale: 1.2;
+  scale: 1.1;
   animation-timeline: paused;
 }
 
 @keyframes carousel {
+  0% {
+    transform: translateX(0px);
+  }
   100% {
     transform: translateX(-2260px);
   }
 }
+
+/* ////////////// */
 
 .text-box p .clr {
   font-weight: normal;

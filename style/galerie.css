@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20%;
 }
 
 .all-picture {
@@ -14,7 +15,7 @@
 
 .all-picture img {
   width: 400px;
-  height: 400px;
+  height: 300px;
   border: 1px solid #eec178;
   transition: ease 0.25s;
   cursor: pointer;
