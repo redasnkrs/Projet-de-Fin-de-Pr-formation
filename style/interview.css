@@ -4,12 +4,37 @@
   box-sizing: border-box;
 }
 
+/* //////////////////////// La barre qui descend. Je définie sa taille //////////////////////// */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
 }
 
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #b6a999, #4f4537, #9e7e4a);
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 10s linear forwards;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+/* Each text box delay. Last value should be the same as the timeline duration */
 .container {
   padding: 10px 50px;
   position: relative;
@@ -27,8 +52,6 @@
     transform: translateY(0px);
   }
 }
-
-/* Each text box delay. Last value should be the same as the timeline duration */
 
 .container:nth-child(1) {
   animation-delay: 0s;
@@ -117,31 +140,6 @@
 
 .right-container .black-hole {
   left: -20px;
-}
-
-/*  time line duration and animation (9s)  */
-
-.timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 100%;
-  border-radius: 4px;
-  background-image: linear-gradient(to bottom, #b6a999, #4f4537, #9e7e4a);
-  top: 0;
-  left: 50%;
-  margin-left: -3px;
-  z-index: -1;
-  animation: moveline 10s linear forwards;
-}
-
-@keyframes moveline {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
 }
 
 /* /////////////////////////////////////// */
