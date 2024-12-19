@@ -4,6 +4,8 @@ const progressPercentage = document.querySelector(".progress-percentage");
 const circularValue = document.querySelectorAll(".circular-value");
 const progressCircles = document.querySelectorAll(".progress");
 const videoElement = document.querySelector("#game-video");
+// The object with each key and a value
+
 const gameData = {
   default: {
     horizontal: 0,
@@ -50,18 +52,20 @@ const gameData = {
 function updateStats(gameId) {
   const gameStats = gameData[gameId] || gameData.default;
 
+  // The progress-bar (%)
+
   progressFill.style.width = `${gameStats.horizontal}%`;
   progressPercentage.textContent = `${gameStats.horizontal}%`;
-
+  // The K/D circle
   const maxOffset = 283;
   const kdOffset = maxOffset - (maxOffset * gameStats.circular) / 3;
   progressCircles[0].style.strokeDashoffset = kdOffset;
   circularValue[0].textContent = `${gameStats.circular} ${gameStats.circularLabel}`;
-
+  // The W/L circle
   const wlOffset = maxOffset - (maxOffset * gameStats.wl) / 5;
   progressCircles[1].style.strokeDashoffset = wlOffset;
   circularValue[1].textContent = `${gameStats.wl} ${gameStats.wlLabel}`;
-
+  // The clip
   if (gameStats.video) {
     videoElement.querySelector("source").src = gameStats.video;
     videoElement.load();

@@ -191,15 +191,15 @@
   animation-range: 100px 700px;
 }
 
+#txt-year p span {
+  font-weight: 800;
+  color: #eec178;
+}
+
 #txt-year-right p {
   width: 100%;
   font-size: 3rem;
   line-height: 4rem;
-}
-
-#txt-year p span {
-  font-weight: 800;
-  color: #eec178;
 }
 
 #txt-year p .dot {
@@ -495,7 +495,6 @@
 
 .slider-img:hover {
   scale: 1.1;
-  animation-timeline: paused;
 }
 
 @keyframes carousel {
